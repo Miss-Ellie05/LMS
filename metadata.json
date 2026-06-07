@@ -1,0 +1,6 @@
+{
+  "name": "Takoradi Library System",
+  "description": "Integrated resource library system serving university learners, high school students, and community researchers in Ghana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

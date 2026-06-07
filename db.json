@@ -1,0 +1,232 @@
+{
+  "books": [
+    {
+      "id": "b1",
+      "title": "The Beautyful Ones Are Not Yet Born",
+      "author": "Ayi Kwei Armah",
+      "genre": "African Fiction",
+      "shelf": "Shelf A2",
+      "isbn": "978-0141183312",
+      "status": "Available"
+    },
+    {
+      "id": "b2",
+      "title": "Changes: A Love Story",
+      "author": "Ama Ata Aidoo",
+      "genre": "African Literature",
+      "shelf": "Shelf A3",
+      "isbn": "978-1558610651",
+      "status": "Available"
+    },
+    {
+      "id": "b3",
+      "title": "Anowa",
+      "author": "Efua Sutherland",
+      "genre": "Drama",
+      "shelf": "Shelf B1",
+      "isbn": "978-0582608733",
+      "status": "Borrowed",
+      "borrowerId": "m2",
+      "borrowerName": "Abeiku Mensah",
+      "dueDate": "2026-06-12"
+    },
+    {
+      "id": "b4",
+      "title": "Things Fall Apart",
+      "author": "Chinua Achebe",
+      "genre": "African Fiction",
+      "shelf": "Shelf A1",
+      "isbn": "978-0385474542",
+      "status": "Available"
+    },
+    {
+      "id": "b5",
+      "title": "Introductory Sociology for West Africa",
+      "author": "Kofi Ansa",
+      "genre": "Social Sciences",
+      "shelf": "Shelf C4",
+      "isbn": "978-0435920005",
+      "status": "Overdue",
+      "borrowerId": "m1",
+      "borrowerName": "Akosua Nyamadi",
+      "dueDate": "2026-06-03"
+    },
+    {
+      "id": "b6",
+      "title": "Fundamentals of Software Engineering",
+      "author": "Steve McConnell",
+      "genre": "Computer Science",
+      "shelf": "Shelf D1",
+      "isbn": "978-0735619678",
+      "status": "Available"
+    },
+    {
+      "id": "b7",
+      "title": "Calculus: Early Transcendentals",
+      "author": "James Stewart",
+      "genre": "Mathematics",
+      "shelf": "Shelf D2",
+      "isbn": "978-1285741550",
+      "status": "Available"
+    },
+    {
+      "id": "b8",
+      "title": "A Grain of Wheat",
+      "author": "Ngũgĩ wa Thiong'o",
+      "genre": "African Fiction",
+      "shelf": "Shelf A4",
+      "isbn": "978-0141187761",
+      "status": "Available"
+    },
+    {
+      "id": "b9",
+      "title": "Advanced Physics for West Africa",
+      "author": "Nelkon & Parker",
+      "genre": "Physics",
+      "shelf": "Shelf C2",
+      "isbn": "978-0435686680",
+      "status": "Available"
+    },
+    {
+      "id": "b10",
+      "title": "The Dilemma of a Ghost",
+      "author": "Ama Ata Aidoo",
+      "genre": "Drama",
+      "shelf": "Shelf B2",
+      "isbn": "978-0582608740",
+      "status": "Available"
+    }
+  ],
+  "members": [
+    {
+      "id": "m1",
+      "name": "Akosua Nyamadi",
+      "email": "akosuanyamadi05@gmail.com",
+      "barcode": "TAK-58291",
+      "accountType": "Student",
+      "joinedAt": "2025-01-15",
+      "fines": 15.0
+    },
+    {
+      "id": "m2",
+      "name": "Abeiku Mensah",
+      "email": "abeiku.mensah@gmail.com",
+      "barcode": "TAK-93721",
+      "accountType": "Researcher",
+      "joinedAt": "2024-11-20",
+      "fines": 0.0
+    },
+    {
+      "id": "m3",
+      "name": "Ekow Boateng",
+      "email": "ekow.b@gmail.com",
+      "barcode": "TAK-19382",
+      "accountType": "Community Member",
+      "joinedAt": "2025-03-05",
+      "fines": 0.0
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk1",
+      "spaceType": "Study Carrel",
+      "spaceName": "Carrel A1",
+      "timeSlot": "08:00 - 10:00",
+      "bookedBy": "Akosua Nyamadi",
+      "email": "akosuanyamadi05@gmail.com",
+      "bookingDate": "2026-06-07"
+    },
+    {
+      "id": "bk2",
+      "spaceType": "Computer Lab",
+      "spaceName": "PC Station #3",
+      "timeSlot": "10:00 - 12:00",
+      "bookedBy": "Abeiku Mensah",
+      "email": "abeiku.mensah@gmail.com",
+      "bookingDate": "2026-06-07"
+    }
+  ],
+  "loans": [
+    {
+      "id": "ln1",
+      "bookId": "b5",
+      "bookTitle": "Introductory Sociology for West Africa",
+      "author": "Kofi Ansa",
+      "isbn": "978-0435920005",
+      "memberEmail": "akosuanyamadi05@gmail.com",
+      "memberName": "Akosua Nyamadi",
+      "borrowDate": "2026-05-20",
+      "dueDate": "2026-06-03",
+      "status": "Overdue"
+    },
+    {
+      "id": "ln2",
+      "bookId": "b3",
+      "bookTitle": "Anowa",
+      "author": "Efua Sutherland",
+      "isbn": "978-0582608733",
+      "memberEmail": "abeiku.mensah@gmail.com",
+      "memberName": "Abeiku Mensah",
+      "borrowDate": "2026-06-01",
+      "dueDate": "2026-06-12",
+      "status": "Active"
+    }
+  ],
+  "eresources": [
+    {
+      "id": "er1",
+      "title": "History of Takoradi & Gold Coast Ports",
+      "category": "Research Paper",
+      "fileSize": "3.5 MB",
+      "url": "/resources/hist_takoradi.pdf",
+      "author": "Dr. K. S. Gyamfi",
+      "year": 2021,
+      "downloads": 142,
+      "description": "An in-depth look at the socio-economic evolution of Takoradi as a core harbor city, charting physical developments from 1928 through post-independence."
+    },
+    {
+      "id": "er2",
+      "title": "Introductory West African Soil Mechanics",
+      "category": "Textbook",
+      "fileSize": "14.8 MB",
+      "url": "/resources/soil_mechanics_wa.pdf",
+      "author": "Prof. Emmanuel Owusu",
+      "year": 2018,
+      "downloads": 89,
+      "description": "Essential readings for local civil engineering undergraduates detailing geotechnical attributes distinctive of Ghanaian and regional soil profiles."
+    },
+    {
+      "id": "er3",
+      "title": "W.A.S.S.C.E. Elective Mathematics Past Syllabus",
+      "category": "Open-Source PDF",
+      "fileSize": "6.1 MB",
+      "url": "/resources/wassce_math_past.pdf",
+      "author": "West African Examinations Council",
+      "year": 2023,
+      "downloads": 305,
+      "description": "A comprehensive compilation of core and elective mathematics examination booklets with step-by-step model guides and syllabus alignment lists."
+    },
+    {
+      "id": "er4",
+      "title": "Fanti Traditional Sayings & Proverbial Wisdom",
+      "category": "Research Paper",
+      "fileSize": "2.1 MB",
+      "url": "/resources/fanti_wisdom.pdf",
+      "author": "Nana Kofi Tsibu IV",
+      "year": 2015,
+      "downloads": 76,
+      "description": "Bilingual collection of classical Fanti expressions detailing their cultural context, semantic structures, and deployment in modern speech."
+    }
+  ],
+  "smsAlerts": [
+    {
+      "id": "sms1",
+      "recipientPhone": "+233241234567",
+      "recipientPhoneFormatted": "+233 24 123 4567",
+      "message": "Welcome Akosua Nyamadi to Takoradi Library! Your digital membership card ID is TAK-58291. Keep reading!",
+      "sentAt": "2026-06-05 09:15",
+      "type": "Welcome",
+      "status": "Delivered"
+    }
+  ]
+}
